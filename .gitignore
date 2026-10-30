@@ -1,0 +1,21 @@
+# Secrets - never commit
+.env
+.env.*
+
+# Credential screenshots and exports
+*credential*
+*secret*
+*token*
+*.png
+*.jpg
+*.jpeg
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs and scratch
+*.log
+*.mp4
